@@ -1,0 +1,11 @@
+Ringkasan Materi :
+Bab 1 : Python hanyalah bahasa untuk Anda. Anda dapat menulis skrip shell Unix atau file batch Windows untuk beberapa tugas ini,
+tetapi skrip shell paling baik untuk memindahkan file dan mengubah data teks, tidak cocok untuk aplikasi atau game GUI.
+Anda dapat menulis program C/C++/Java, tetapi akan membutuhkan banyak waktu pengembangan untuk mendapatkan draf program pertama sekalipun.
+Python lebih mudah digunakan, tersedia di sistem operasi Windows, macOS, dan Unix, dan akan membantu Anda menyelesaikan pekerjaan lebih cepat.<br /><br />
+
+Bab 2 : Di mesin Windows tempat Anda menginstal Python dari Microsoft Store, perintah python3.11 akan tersedia.
+Mengetik akhir karakter file pada prompt utama menyebabkan juru bahasa keluar dengan status keluar nol.
+Fitur pengeditan baris juru bahasa mencakup pengeditan interaktif, penggantian riwayat, dan penyelesaian kode pada sistem yang mendukung pustaka GNU Readline. Mungkin pemeriksaan tercepat untuk melihat apakah pengeditan baris perintah didukung adalah dengan mengetikkan Control-P pada prompt Python pertama yang Anda dapatkan. Saat diketahui oleh juru bahasa, nama skrip dan argumen tambahan selanjutnya diubah menjadi daftar string dan ditetapkan ke variabel argv di modul sys. Argv adalah string kosong. Argv diatur ke '-'. Argv diatur ke '-c'. Argv diatur ke nama lengkap modul yang terletak. Ketika perintah dibaca dari tty, interpreter dikatakan dalam mode interaktif. Dalam mode ini ia meminta perintah berikutnya dengan prompt utama, biasanya tiga tanda lebih besar dari ; untuk garis lanjutan diminta dengan prompt sekunder, secara default tiga titik. Untuk menampilkan semua karakter ini dengan benar, editor Anda harus mengenali bahwa file tersebut adalah UTF-8, dan harus menggunakan font yang mendukung semua karakter dalam file. Untuk mendeklarasikan penyandian selain yang default, baris komentar khusus harus ditambahkan sebagai baris pertama file. Dalam hal ini, deklarasi pengkodean harus ditambahkan sebagai baris kedua file.<br /><br />
+
+Bab 3 : Banyak contoh dalam manual ini, bahkan yang dimasukkan pada permintaan interaktif, menyertakan komentar. Karakter hash dalam literal string hanyalah karakter hash. Karena komentar adalah untuk mengklarifikasi kode dan tidak ditafsirkan oleh Python, komentar dapat dihilangkan saat mengetikkan contoh. 
