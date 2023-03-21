@@ -47,11 +47,6 @@ parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments
 parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments
 parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword
 
-parrot()                     # required argument missing
-parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument
-parrot(110, voltage=220)     # duplicate value for the same argument
-parrot(actor='John Cleese')  # unknown keyword argument
-
 def function(a):
     pass
 
@@ -71,14 +66,6 @@ cheeseshop("Limburger", "It's very runny, sir.",
            shopkeeper="Michael Palin",
            client="John Cleese",
            sketch="Cheese Shop Sketch")
-
-#Parameter khusus
-def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
-      -----------    ----------     ----------
-        |             |                  |
-        |        Positional or keyword   |
-        |                                - Keyword only
-         -- Positional only
 
 #Contoh Fungsi
 def standard_arg(arg):
@@ -111,13 +98,11 @@ def foo(name, **kwds):
     return 'name' in kwds
 
 foo(1, **{'name': 2})
+
 def foo(name, /, **kwds):
     return 'name' in kwds
 
 foo(1, **{'name': 2})
-
-#Recap
-def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 
 #Daftar Argumen Sewenang-wenang
 def write_multiple_items(file, separator, *args):

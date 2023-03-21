@@ -24,7 +24,7 @@ match point:
         print(f"X={x}, Y={y}")
     case _:
         raise ValueError("Not a point")
-
+    
 class Point:
     x: int
     y: int
@@ -80,4 +80,3 @@ match color:
         print("Grass is green")
     case Color.BLUE:
         print("I'm feeling the blues :(")
-

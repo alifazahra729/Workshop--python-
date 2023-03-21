@@ -1,10 +1,10 @@
-#numbers
+#Numbers
 2 + 2
 50 - 5*6
 (50 - 5*6) / 4
 8 / 5  # division always returns a floating point number
 
-7 / 3  # classic division returns a float
+17 / 3  # classic division returns a float
 17 // 3  # floor division discards the fractional part
 17 % 3  # the % operator returns the remainder of the division
 5 * 3 + 2  # floored quotient * divisor + remainder
@@ -15,6 +15,8 @@
 width = 20
 height = 5 * 9
 width * height
+
+n  # try to access an undefined variable
 
 4 * 3.75 - 1
 
@@ -36,11 +38,16 @@ round(_, 2)
 print('"Isn\'t," they said.')
 s = 'First line.\nSecond line.'  # \n means newline
 s  # without print(), \n is included in the output
-'First line.\nSecond line.'
 print(s)  # with print(), \n produces a new line
 
 print('C:\some\name')  # here \n means newline!
 print(r'C:\some\name')  # note the r before the quote
+
+print("""\
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
 
 # 3 times 'un', followed by 'ium'
 3 * 'un' + 'ium'
@@ -132,15 +139,3 @@ x
 x[0]
 x[0][1]
 
-#Langkah Pertama Menuju Pemrograman
-while a < 10:
-    print(a)
-    a, b = b, a+b
-    
-i = 256*256
-print('The value of i is', i)
-
-a, b = 0, 1
-while a < 1000:
-    print(a, end=',')
-    a, b = b, a+b
