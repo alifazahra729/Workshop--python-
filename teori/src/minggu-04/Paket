@@ -1,0 +1,13 @@
+import sound.effects.echo
+from sound.effects import echo
+from sound.effects.echo import echofilter
+
+#Mengimpor * Dari Paket
+import sound.effects.echo
+import sound.effects.surround
+from sound.effects import *
+
+#Referensi Intra-paket
+from . import echo
+from .. import formats
+from ..filters import equalizer
