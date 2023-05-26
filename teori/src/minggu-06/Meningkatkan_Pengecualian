@@ -1,0 +1,30 @@
+raise NameError('HiThere')
+
+raise ValueError  # shorthand for 'raise ValueError()'
+
+try:
+    raise NameError('HiThere')
+except NameError:
+    print('An exception flew by!')
+    raise
+
+try:
+    open("database.sqlite")
+except OSError:
+    raise RuntimeError("unable to handle error")
+
+# exc must be exception instance or None.
+raise RuntimeError from exc
+
+def func():
+    raise ConnectionError
+
+try:
+    func()
+except ConnectionError as exc:
+    raise RuntimeError('Failed to open database') from exc
+
+try:
+    open('database.sqlite')
+except OSError:
+    raise RuntimeError from None
