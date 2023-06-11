@@ -1,4 +1,4 @@
-ingkasan :
+Ringkasan :
 - Bab 9
 *Kelas
 
